@@ -1,0 +1,32 @@
+ES5 MAP CALLBACK
+function double(arr) {
+  return arr.map(function(val) {
+    return val * 2;
+  });
+}
+
+ES2015 ARROW FUNCTIONS SHORTHAND
+/*Write an EX2015 Version*/
+function double(arr){
+  arr.map((val)=>val*2);
+}
+
+/**********************************************************************************/
+
+REFACTOR THE FOLLOWING FUNCTIONS TO USE ARROW FUNCTIONS
+/*Replace all functions with arrow functions*/
+function squareAndFindEvens(numbers){
+  var squares = numbers.map(function(num){
+    return num ** 2;
+  });
+  var evens = squares.filter(function(square){
+    return square % 2 === 0;
+  });
+  return evens;
+}
+
+ES2015 ARROW FUNCTIONS REFACTORED
+function squareAndFindEvens(numbers){
+  let squares = numbers.map((num)=>num ** 2);
+  squares.filter((square)=>square % 2 === 0);
+}
