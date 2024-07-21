@@ -1,0 +1,25 @@
+ES5 GLOBAL CONSTANTS
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 GLOBAL CONSTANTS
+const PI=3.14; //this will prevent the PI-42 code from running
+
+- What is the difference between ***var*** and ***let***?
+***var*** = scopes a variable, but can be redeclared anywhere in the code
+***let*** = block-scopes a variable, so it cannot be redeclared
+
+- What is the difference between **var** and ***const***?
+**var** = can be reassigned or redeclared
+***const*** = cannot be reassigned or redeclared
+
+- What is the difference between **let** and **const**?
+**let** = can be reassigned if it is called to do so in the code
+**const** = cannot be reassigned anywhere in the code.
+
+- What is hoisting?
+Hoisting is where a variable can be declared even after it has been used. 
+Var can be used BEFORE it is declared.
+Let and Const cannot be used before they are declared.
+Source: https://www.w3schools.com/js/js_hoisting.asp
+
