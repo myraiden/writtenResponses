@@ -37,8 +37,13 @@ In your own terms, define the following terms:
 ## **Part Two: Practice Tools**
 
 1. Using ***curl***, make a ***GET*** request to the *icanhazdadjoke.com* API to find all jokes involving the word “pirate”
+   - curl 'https://icanhazdadjoke.com'
+    - result: I am so good at sleeping I can do it with my eyes closed!
 2. Use ***dig*** to find what the IP address is for *icanhazdadjoke.com*
+   - 172.18.176.1#53(172.18.176.1)
 3. Make a simple web page and serve it using ***python3 -m http.server***. Visit the page in a browser.
+   - http://localhost:8000/moviesApp.html
+     - viewed moviesApp.html from prior class exercise
 
 ## **Part Three: Explore Dev Tools**
 
@@ -55,5 +60,3 @@ At times, it’s useful for your JavaScript to look at the URL of the browser wi
 [Read about the URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL)
 
 Try some of the code examples in the Chrome Console so that you can get comfortable with the basic methods and properties for instances of the URL class.
-
-[Solution](https://lessons.springboard.com/Solution-b90d1d16d5f043f79fa6524333d6f99b?pvs=21)
