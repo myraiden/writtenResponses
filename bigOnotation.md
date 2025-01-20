@@ -38,9 +38,7 @@ function logUpTo(n) {
   }
 }
 ```
-**Answer:** 
-
-Time Complexity:
+**Time Complexity:** 
 
 ```jsx
 function logAtLeast10(n) {
@@ -49,9 +47,7 @@ function logAtLeast10(n) {
   }
 }
 ```
-**Answer:** 
-
-Time Complexity:
+**Time Complexity:** 
 
 ```jsx
 function logAtMost10(n) {
@@ -60,9 +56,7 @@ function logAtMost10(n) {
   }
 }
 ```
-**Answer:** 
-
-Time Complexity:
+**Time Complexity:** 
 
 ```jsx
 function onlyElementsAtEvenIndex(array) {
@@ -75,9 +69,7 @@ function onlyElementsAtEvenIndex(array) {
   return newArray;
 }
 ```
-**Answer:** 
-
-Time Complexity:
+**Time Complexity:** 
 
 ```jsx
 function subtotals(array) {
@@ -92,9 +84,7 @@ function subtotals(array) {
   return subtotalArray;
 }
 ```
-**Answer:** 
-
-Time Complexity:
+**Time Complexity:** 
 
 ```jsx
 function vowelCount(str) {
@@ -114,9 +104,7 @@ function vowelCount(str) {
   return vowelCount;
 }
 ```
-**Answer:** 
-
-Time Complexity:
+**Time Complexity:** 
 
 ## **Part 3 - short answer**
 
@@ -129,17 +117,27 @@ Answer the following questions
 3. True or false: n^2 + n is O(n).
    - False
 4. What’s the time complexity of the .indexOf array method?
+   - 
 5. What’s the time complexity of the .includes array method?
+   - 
 6. What’s the time complexity of the .forEach array method?
+   - 
 7. What’s the time complexity of the .sort array method?
+   - 
 8. What’s the time complexity of the .unshift array method?
+   - 
 9. What’s the time complexity of the .push array method?
+   - 
 10. What’s the time complexity of the .splice array method?
+    - 
 11. What’s the time complexity of the .pop array method?
+    - 
 12. What’s the time complexity of the Object.keys() function?
+    - 
 
 ### **BONUS**
 
 1. What’s the space complexity of the Object.keys() function?
+   - 
 
 [Solution](https://lessons.springboard.com/Solution-05037f68d7aa4c4f8f8e380181084cca?pvs=21)
