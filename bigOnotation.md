@@ -13,19 +13,19 @@ Simplify the following big O expressions as much as possible:
 3. O(25) 
    - O(1)
 4. O(n^2 + n^3)
-   - O(n^2)
+   - O(n^3)
 5. O(n + n + n + n)
    - O(n)
 6. O(1000 * log(n) + n)
-   - O()
+   - O(n)
 7. O(1000 * n * log(n) + n)
-   - O(n log<sub>2</sub> n)
+   - O(n log n)
 8. O(2^n + n^2)
    - O(2^n)
 9. O(5 + 3 + 1)
    - O(1)
 10. O(n + n^(1/2) + n^2 + n * log(n)^10)
-    - O(2^n)
+    - O(n^2)
 
 ## **Step Two: Calculating Time Complexity**
 
@@ -38,7 +38,7 @@ function logUpTo(n) {
   }
 }
 ```
-**Time Complexity:** 
+**Time Complexity:** O(n)
 
 ```jsx
 function logAtLeast10(n) {
@@ -47,7 +47,7 @@ function logAtLeast10(n) {
   }
 }
 ```
-**Time Complexity:** 
+**Time Complexity:** O(n)
 
 ```jsx
 function logAtMost10(n) {
@@ -56,7 +56,7 @@ function logAtMost10(n) {
   }
 }
 ```
-**Time Complexity:** 
+**Time Complexity:** O(1)
 
 ```jsx
 function onlyElementsAtEvenIndex(array) {
@@ -69,7 +69,7 @@ function onlyElementsAtEvenIndex(array) {
   return newArray;
 }
 ```
-**Time Complexity:** 
+**Time Complexity:** O(n)
 
 ```jsx
 function subtotals(array) {
@@ -84,7 +84,7 @@ function subtotals(array) {
   return subtotalArray;
 }
 ```
-**Time Complexity:** 
+**Time Complexity:** O(n^2)
 
 ```jsx
 function vowelCount(str) {
@@ -104,7 +104,7 @@ function vowelCount(str) {
   return vowelCount;
 }
 ```
-**Time Complexity:** 
+**Time Complexity:** O(n)
 
 ## **Part 3 - short answer**
 
@@ -113,31 +113,31 @@ Answer the following questions
 1. True or false: n^2 + n is O(n^2).
    - True
 2. True or false: n^2 * n is O(n^3).
-   - False
+   - True
 3. True or false: n^2 + n is O(n).
    - False
 4. What’s the time complexity of the .indexOf array method?
-   - True/False
+   - O(1)
 5. What’s the time complexity of the .includes array method?
-   - True/False
+   - O(n)
 6. What’s the time complexity of the .forEach array method?
-   - True/False
+   - O(n)
 7. What’s the time complexity of the .sort array method?
-   - True/False
+   - O(n log n)
 8. What’s the time complexity of the .unshift array method?
-   - True/False
+   - O(n)
 9. What’s the time complexity of the .push array method?
-   - True/False
+   - O(1)
 10. What’s the time complexity of the .splice array method?
-    - True/False
+    - O(n)
 11. What’s the time complexity of the .pop array method?
-    - True/False
+    - O(1)
 12. What’s the time complexity of the Object.keys() function?
-    - True/False
+    - O(n)
 
 ### **BONUS**
 
 1. What’s the space complexity of the Object.keys() function?
-   - True/False
+   - O(n)
 
 [Solution](https://lessons.springboard.com/Solution-05037f68d7aa4c4f8f8e380181084cca?pvs=21)
