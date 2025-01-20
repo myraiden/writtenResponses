@@ -117,27 +117,27 @@ Answer the following questions
 3. True or false: n^2 + n is O(n).
    - False
 4. What’s the time complexity of the .indexOf array method?
-   - 
+   - True/False
 5. What’s the time complexity of the .includes array method?
-   - 
+   - True/False
 6. What’s the time complexity of the .forEach array method?
-   - 
+   - True/False
 7. What’s the time complexity of the .sort array method?
-   - 
+   - True/False
 8. What’s the time complexity of the .unshift array method?
-   - 
+   - True/False
 9. What’s the time complexity of the .push array method?
-   - 
+   - True/False
 10. What’s the time complexity of the .splice array method?
-    - 
+    - True/False
 11. What’s the time complexity of the .pop array method?
-    - 
+    - True/False
 12. What’s the time complexity of the Object.keys() function?
-    - 
+    - True/False
 
 ### **BONUS**
 
 1. What’s the space complexity of the Object.keys() function?
-   - 
+   - True/False
 
 [Solution](https://lessons.springboard.com/Solution-05037f68d7aa4c4f8f8e380181084cca?pvs=21)
