@@ -15,7 +15,7 @@ Simplify the following big O expressions as much as possible:
 4. O(n^2 + n^3)
    - O(n^2)
 5. O(n + n + n + n)
-  - O(n)
+   - O(n)
 6. O(1000 * log(n) + n)
    - O()
 7. O(1000 * n * log(n) + n)
@@ -25,7 +25,7 @@ Simplify the following big O expressions as much as possible:
 9. O(5 + 3 + 1)
    - O(1)
 10. O(n + n^(1/2) + n^2 + n * log(n)^10)
-   - O(2^n)
+    - O(2^n)
 
 ## **Step Two: Calculating Time Complexity**
 
@@ -38,6 +38,7 @@ function logUpTo(n) {
   }
 }
 ```
+**Answer:** 
 
 Time Complexity:
 
@@ -48,6 +49,7 @@ function logAtLeast10(n) {
   }
 }
 ```
+**Answer:** 
 
 Time Complexity:
 
@@ -58,6 +60,7 @@ function logAtMost10(n) {
   }
 }
 ```
+**Answer:** 
 
 Time Complexity:
 
@@ -72,6 +75,7 @@ function onlyElementsAtEvenIndex(array) {
   return newArray;
 }
 ```
+**Answer:** 
 
 Time Complexity:
 
@@ -88,6 +92,7 @@ function subtotals(array) {
   return subtotalArray;
 }
 ```
+**Answer:** 
 
 Time Complexity:
 
@@ -109,6 +114,7 @@ function vowelCount(str) {
   return vowelCount;
 }
 ```
+**Answer:** 
 
 Time Complexity:
 
@@ -117,8 +123,11 @@ Time Complexity:
 Answer the following questions
 
 1. True or false: n^2 + n is O(n^2).
+   - True
 2. True or false: n^2 * n is O(n^3).
+   - False
 3. True or false: n^2 + n is O(n).
+   - False
 4. What’s the time complexity of the .indexOf array method?
 5. What’s the time complexity of the .includes array method?
 6. What’s the time complexity of the .forEach array method?
